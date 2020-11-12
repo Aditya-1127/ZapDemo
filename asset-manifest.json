@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ZapsDemo/static/css/main.48bb78a0.chunk.css",
+    "main.js": "/ZapsDemo/static/js/main.3922d23a.chunk.js",
+    "main.js.map": "/ZapsDemo/static/js/main.3922d23a.chunk.js.map",
+    "runtime-main.js": "/ZapsDemo/static/js/runtime-main.b110f6cb.js",
+    "runtime-main.js.map": "/ZapsDemo/static/js/runtime-main.b110f6cb.js.map",
+    "static/css/2.93b3b32d.chunk.css": "/ZapsDemo/static/css/2.93b3b32d.chunk.css",
+    "static/js/2.737c6934.chunk.js": "/ZapsDemo/static/js/2.737c6934.chunk.js",
+    "static/js/2.737c6934.chunk.js.map": "/ZapsDemo/static/js/2.737c6934.chunk.js.map",
+    "index.html": "/ZapsDemo/index.html",
+    "precache-manifest.774c46d79d7f128f510a916e50b0263a.js": "/ZapsDemo/precache-manifest.774c46d79d7f128f510a916e50b0263a.js",
+    "service-worker.js": "/ZapsDemo/service-worker.js",
+    "static/css/2.93b3b32d.chunk.css.map": "/ZapsDemo/static/css/2.93b3b32d.chunk.css.map",
+    "static/css/main.48bb78a0.chunk.css.map": "/ZapsDemo/static/css/main.48bb78a0.chunk.css.map",
+    "static/js/2.737c6934.chunk.js.LICENSE.txt": "/ZapsDemo/static/js/2.737c6934.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b110f6cb.js",
+    "static/css/2.93b3b32d.chunk.css",
+    "static/js/2.737c6934.chunk.js",
+    "static/css/main.48bb78a0.chunk.css",
+    "static/js/main.3922d23a.chunk.js"
+  ]
+}
