@@ -1,25 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home';
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
+import Profile from './components/pages/Profile';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Router>
+      <Navbar/>
+      <Switch>
+        <Route path ='/' exact component = {Home}/>
+        <Route path ='/services' component = {Services} />
+        <Route path ='/products' component = {Products} />
+        <div className="App">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+        <div className="container">
+          
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul className="navbar-nav ml-auto">
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div className="auth-wrapper">
+        <div className="auth-inner">
+         
+           
+            <Route path="/sign-up" component={SignUp} />
+            <Route path="/profile" component={Profile} />
+          
+        </div>
+      </div>
     </div>
+       
+      </Switch>
+      </Router>
+    </>
   );
 }
 
